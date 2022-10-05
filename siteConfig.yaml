@@ -53,3 +53,16 @@ footer:
           page: faq.md
         - label: Contact us
           page: contact.mdx
+auth:
+  idps:
+    main:
+      type: oidc
+      configurationUrl: https://test-partner.us.auth0.com/.well-known/openid-configuration
+      clientId: OIDC CLIENT_ID
+      clientSecret: 5ZlVZyBFUjR5Sad9w006T2D6yrL64qEc
+      scopes:
+        - read
+        - write
+        - scopes
+  globalAuthRequirement: public | <idpId>
+  allowLoginWith: <idpId> 
