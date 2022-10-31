@@ -8,6 +8,21 @@ linkChecker:
   severity: warning
   options:
     CheckExternal: false
+login:
+  label: Sign in
+  userAvatar:
+    claim: picture
+    fallbackLettersClaim: fullName
+  userLabel:
+    claim: email
+    fallback: '<unknown user>'
+  menu:
+    - label: Profile
+      page: profile.mdx
+    - separatorLine: true
+    - label: Sign out
+      logout: true
+      link: 'https://test-partner.us.auth0.com/v2/logout?client_id=5ZlVZyBFUjR5Sad9w006T2D6yrL64qEc&returnTo=LOGOUT_URL'
 logo:
   image: ./images/logo.png
   altText: Redocly Training
