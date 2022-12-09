@@ -22,7 +22,7 @@ login:
     - separatorLine: true
     - label: Sign out
       logout: true
-      link: 'https://test-partner.us.auth0.com/v2/logout?client_id=5ZlVZyBFUjR5Sad9w006T2D6yrL64qEc&returnTo=https://epstest.redoc.ly'
+      link: 'https://partner-console.us.auth0.com/v2/logout?client_id=w9n8G8CuEbquznqMWVcOU1raK3XEkYkP&returnTo=https://epstest.redoc.ly'
 logo:
   image: ./images/logo.png
   altText: Redocly Training
@@ -72,9 +72,9 @@ auth:
   idps:
     main:
       type: oidc
-      configurationUrl: https://test-partner.us.auth0.com/.well-known/openid-configuration
+      configurationUrl: https://partner-console.us.auth0.com/.well-known/openid-configuration
       clientId: OIDC CLIENT_ID
-      clientSecret: 5ZlVZyBFUjR5Sad9w006T2D6yrL64qEc
+      clientSecret: w9n8G8CuEbquznqMWVcOU1raK3XEkYkP
       scopes:
         - read
         - write
